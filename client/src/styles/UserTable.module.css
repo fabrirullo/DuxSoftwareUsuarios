@@ -1,0 +1,78 @@
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+  
+
+  .searchInput {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    width: 500px; 
+  }
+  
+  .filterSelect {
+    margin-top: 20px;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 15px; 
+    width: 500px; 
+  }
+  
+  .tableContainer {
+    flex: 1; 
+    margin-top: 20px;
+    overflow: auto; 
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .dataTable {
+    width: 100%;
+  }
+  
+  .p-datatable {
+    border: none;
+  }
+  
+  .p-datatable-header {
+    background-color: #007bff; 
+    color: #ffffff; 
+  }
+  
+  .p-datatable-thead > tr > th {
+    text-align: center;
+  }
+  
+  .p-datatable-tbody > tr > td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .p-datatable .p-column-filter {
+    text-align: center;
+  }
